@@ -1,0 +1,59 @@
+Langchain with Python Bootcamp:
+
+Course Slides: https://drive.google.com/drive/folders/1Kh3-3-aS_xtYhK73sVeXNTyFGREgub_U
+Discord Channel: https://discord.com/invite/TztE6B8
+QA forums: https://support.udemy.com/hc/en-us/articles/229233387-How-to-Use-The-Q-A
+Course Files Location: https://support.udemy.com/hc/en-us/articles/229604708-Downloading-Course-Resources
+
+Lesson 2: Introduction to Langchain
+Langchain - a framework - to work with LLM like OpenAI GPT, Google's PaLM-2 or Gemini LLMs
+Langchain does this using Modules and is also called as Components
+Best way to understand Langchain - Understand Components and how they work together to build robust LLM applications.
+Why modules or Components
+	Langchain can be built in Python or JS/Typescript, in Python it is called modules and in JS it is called Components.
+	Hence when you use either of the two documentation, we find it is either modules or components.
+	The course slowly builds up to the use of Langchain Agents that are extremely powerful LLM based applications.
+	Agents need few lines of code but jumping straight to Agents would leave to confusion in Langchain.
+	The step by step process would help in the model to build in a synchronized way. The steps are:
+		Model IO
+		Data Connection
+		Chains
+		Memory
+		Agents
+		
+	Model IO:
+		This focusses on the Input and Output for the LLMs.
+		This is similar to ones we have used for other default APIs like OpenAI API.
+		Langchain Advantage:
+			The Langchain advantage is that the coding done with respect different LLM model is different.
+			Lets say If you code completely wrt to OpenAI Api, then you want to change to any other latest model like LLAMA, then we need to again rewrite the code.
+			Instead we can use the Langchain model to handle a standardized code for Input and Output for any LLM.
+			This makes the code and model flexible, when we change the model that we are dealing with.
+			
+	Data Connection:
+		Data Connection deals with exposing the LLM model with various sources of data like own documents or the vector space.
+		Langchain Advantage:
+			They help you to easily swap between the vector stores like ChromaDB
+			They also support in creating standardized document objects from a variety of sources like CSVs, PDFs, AWS and Google Cloud.
+			
+	Chains:
+		The core architectural basis of Langchain.
+		They help in linking the output of one model to the input of another model call.
+		Langchain Advantage:
+			They help in easily chain together the various models.
+			This helps the users to replace one LLM with another in between with much ease.
+			
+	Memory:
+		This helps in storing the historical contexts of the previous interactions
+		Langchain Advantage
+			They help in saving the historical conversations and results from the LLM
+			This enalbes users to save them in memory and switch off the system and come back with reloading from the saved conversation.
+	
+	Agents:
+		Agents are the most powerful part of LangChain.
+		They utilize all the previous modules to build the applications.
+		Langchain Advantage:
+			They help in creating agents for the Custom Tools with just few lines of code.
+		
+	
+	It is more important to understand the modules in order so that we have a deeper understanding when we get to the portion of Agents
